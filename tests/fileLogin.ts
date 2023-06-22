@@ -17,7 +17,7 @@ test.describe("Test case login", async () => {
   // data.tc_unfill.forEach((element:User,index:number) => {
     test("Unfill unsername & password: ", async ({ page}) => {
       const admin = new Admin(page);;
-      await admin.Login.loginId("1123asd","asdasd1");
+      await admin.Login.loginId("","");
       let ms ="Required";
       expect("Required").toBe(ms);
     })
@@ -25,7 +25,7 @@ test.describe("Test case login", async () => {
   // data.tc_false.forEach((element:User,index:number) => {
     test("Fill unsername & password invalid: ", async ({ page}) => {
       const admin = new Admin(page);;
-      await admin.Login.loginId("","");
+      await admin.Login.loginId("ádasd","123123");
       let ms = await page.locator("xpath=//*[contains(p,'Invalid credentials')]//child::p").textContent();
       await expect(ms).toBe("Invalid credentials");
     })
