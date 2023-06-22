@@ -38,6 +38,6 @@ export interface employee{
     editusername: string;
 }
 import * as fs from 'fs';
-const jsonString = fs.readFileSync('D:/GitHub2/Playwright/filedata.json', 'utf-8');
+const jsonString = fs.readFileSync('./GitHub2/Playwright/filedata.json', 'utf-8');
 var data = JSON.parse(jsonString);
 export { data };
