@@ -25,7 +25,7 @@ test.describe("Test case login", async () => {
   // data.tc_false.forEach((element:User,index:number) => {
     test("Fill unsername & password invalid: ", async ({ page}) => {
       const admin = new Admin(page);;
-      await admin.Login.loginId("asd","123");
+      await admin.Login.loginId("","");
       let ms = await page.locator("xpath=//*[contains(p,'Invalid credentials')]//child::p").textContent();
       await expect(ms).toBe("Invalid credentials");
     })
