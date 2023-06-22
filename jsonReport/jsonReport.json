@@ -1,7 +1,7 @@
 {
   "config": {
-    "configFile": "D:\\2\\playwright_orangehrm\\playwright.config.ts",
-    "rootDir": "D:/2/playwright_orangehrm",
+    "configFile": "D:\\GitHub2\\Playwright\\playwright.config.ts",
+    "rootDir": "D:/GitHub2/Playwright",
     "forbidOnly": false,
     "fullyParallel": false,
     "globalSetup": null,
@@ -37,12 +37,12 @@
     "quiet": false,
     "projects": [
       {
-        "outputDir": "D:/2/playwright_orangehrm/test-results",
+        "outputDir": "D:/GitHub2/Playwright/test-results",
         "repeatEach": 1,
         "retries": 0,
         "id": "",
         "name": "",
-        "testDir": "D:/2/playwright_orangehrm",
+        "testDir": "D:/GitHub2/Playwright",
         "testIgnore": [],
         "testMatch": [
           "tests/fileLogin.ts"
@@ -85,22 +85,22 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 9374,
+                      "duration": 8702,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2023-06-20T09:39:09.088Z",
+                      "startTime": "2023-06-22T03:14:15.656Z",
                       "attachments": [
                         {
                           "name": "video",
                           "contentType": "video/webm",
-                          "path": "D:\\2\\playwright_orangehrm\\test-results\\tests-fileLogin.ts-Test-case-login-Happy-case-0\\video.webm"
+                          "path": "D:\\GitHub2\\Playwright\\test-results\\tests-fileLogin.ts-Test-case-login-Happy-case-0\\video.webm"
                         },
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "D:\\2\\playwright_orangehrm\\test-results\\tests-fileLogin.ts-Test-case-login-Happy-case-0\\test-finished-1.png"
+                          "path": "D:\\GitHub2\\Playwright\\test-results\\tests-fileLogin.ts-Test-case-login-Happy-case-0\\test-finished-1.png"
                         }
                       ]
                     }
@@ -128,22 +128,22 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 5234,
+                      "duration": 5422,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2023-06-20T09:39:21.070Z",
+                      "startTime": "2023-06-22T03:14:26.311Z",
                       "attachments": [
                         {
                           "name": "video",
                           "contentType": "video/webm",
-                          "path": "D:\\2\\playwright_orangehrm\\test-results\\tests-fileLogin.ts-Test-case-login-Unfill-unsername-password-0\\video.webm"
+                          "path": "D:\\GitHub2\\Playwright\\test-results\\tests-fileLogin.ts-Test-case-login-Unfill-unsername-password-0\\video.webm"
                         },
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "D:\\2\\playwright_orangehrm\\test-results\\tests-fileLogin.ts-Test-case-login-Unfill-unsername-password-0\\test-finished-1.png"
+                          "path": "D:\\GitHub2\\Playwright\\test-results\\tests-fileLogin.ts-Test-case-login-Unfill-unsername-password-0\\test-finished-1.png"
                         }
                       ]
                     }
@@ -171,22 +171,22 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 9216,
+                      "duration": 8950,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2023-06-20T09:39:26.308Z",
+                      "startTime": "2023-06-22T03:14:31.736Z",
                       "attachments": [
                         {
                           "name": "video",
                           "contentType": "video/webm",
-                          "path": "D:\\2\\playwright_orangehrm\\test-results\\tests-fileLogin.ts-Test-case-login-Fill-unsername-password-invalid-0\\video.webm"
+                          "path": "D:\\GitHub2\\Playwright\\test-results\\tests-fileLogin.ts-Test-case-login-Fill-unsername-password-invalid-0\\video.webm"
                         },
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "D:\\2\\playwright_orangehrm\\test-results\\tests-fileLogin.ts-Test-case-login-Fill-unsername-password-invalid-0\\test-finished-1.png"
+                          "path": "D:\\GitHub2\\Playwright\\test-results\\tests-fileLogin.ts-Test-case-login-Fill-unsername-password-invalid-0\\test-finished-1.png"
                         }
                       ]
                     }
@@ -214,22 +214,22 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 13116,
+                      "duration": 9181,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2023-06-20T09:39:35.526Z",
+                      "startTime": "2023-06-22T03:14:40.690Z",
                       "attachments": [
                         {
                           "name": "video",
                           "contentType": "video/webm",
-                          "path": "D:\\2\\playwright_orangehrm\\test-results\\tests-fileLogin.ts-Test-case-login-Fill-unsername-password-invalid-1\\video.webm"
+                          "path": "D:\\GitHub2\\Playwright\\test-results\\tests-fileLogin.ts-Test-case-login-Fill-unsername-password-invalid-1\\video.webm"
                         },
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "D:\\2\\playwright_orangehrm\\test-results\\tests-fileLogin.ts-Test-case-login-Fill-unsername-password-invalid-1\\test-finished-1.png"
+                          "path": "D:\\GitHub2\\Playwright\\test-results\\tests-fileLogin.ts-Test-case-login-Fill-unsername-password-invalid-1\\test-finished-1.png"
                         }
                       ]
                     }

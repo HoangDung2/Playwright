@@ -10,8 +10,8 @@ const config: PlaywrightTestConfig={
      // baseURL: 'http://localhost:000',
  /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     //  trace: 'on-first-retry',
-      // baseURL:"https://opensource-demo.orangehrmlive.com/",
-      baseURL:'http://localhost:3000',
+      baseURL:"https://opensource-demo.orangehrmlive.com/",
+      // baseURL:'http://localhost:3000',
       headless:false,
       video:"on",
       screenshot:"on",
@@ -20,11 +20,6 @@ const config: PlaywrightTestConfig={
       },
       trace: "on-first-retry"
   },
-  webServer: {  
-    command: "yarn dev --port 3000",  
-    url: "http://127.0.0.1:3000",  
-    reuseExistingServer: !process.env.CI,  
-  }, 
   retries:0,
   reporter: [["list"], ["json",{
     outputFile: "jsonReport/jsonReport.json"
