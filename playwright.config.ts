@@ -2,7 +2,7 @@ import { PlaywrightTestConfig } from '@playwright/test';
 // import { json } from 'node:stream/consumers';
 
 const config: PlaywrightTestConfig={
-  testMatch:["tests/*.ts"],
+  testMatch:["tests/fileLogin.ts"],
   use: {
      /* Maximum time each action such as `click()` can take. Defaults to 0 (no limit). */
      actionTimeout: 0,

@@ -1,6 +1,8 @@
 import { chromium, expect, Page,test} from '@playwright/test';
-import {Admin} from "../Admin";
-import {User,data,} from '../fileData';
+import {Admin} from '../Admin';
+
+import {User,data} from '../fileData';
+
 test.describe("Test case login", async () => {
   test.beforeEach(async ({ page,baseURL}) => {
    await page.goto(`${baseURL}web/index.php/auth/login`);

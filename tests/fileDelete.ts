@@ -7,8 +7,8 @@ test.describe("Test case Delete Employee",async()=>{
         await admin.Login.loginId("Admin", "admin123");
         await admin.Search.clickAdminmenu();
         await admin.Search.inputUsername("Admin");
-        await admin.Search.searchUserole();
-        await admin.Search.searhStatus();
+        await admin.Search.searchUserole("Admin");
+        await admin.Search.searhStatus("Enabled");
         await admin.Search.submitSearch();
         await page.waitForTimeout(500);
         await admin.Delete.clickDelete();
