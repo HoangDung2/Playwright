@@ -3,7 +3,13 @@
   "version": "1.9.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+         "report": "npx playwright test --reporter=html && npx playwright show-report",
+        "debug": "npx playwright test --debug",
+        "test": "npx playwright test",
+        "test-us": "npx playwright test --update-snapshots",
+        "github-action": "npx playwright test --config=github.config.ts"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -11,7 +17,15 @@
     "@playwright/test": "^1.34.3",
     "allure-commandline": "^2.22.1",
     "experimental-allure-playwright": "0.0.3"
+    "ts-node": "10.0.0",
+    "typescript": "4.3.2",
   },
+  "keywords": [
+        "playwright",
+        "playwright tutorial",
+        "playwright test runner",
+        "letcode koushik"
+    ],
   "attribute": "// numeroConta",
   "operator": "=",
   "value": "0030152201"
