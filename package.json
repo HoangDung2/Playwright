@@ -20,12 +20,6 @@
     "ts-node": "10.0.0",
     "typescript": "4.3.2",
   },
-  "keywords": [
-        "playwright",
-        "playwright tutorial",
-        "playwright test runner",
-        "letcode koushik"
-    ],
   "attribute": "// numeroConta",
   "operator": "=",
   "value": "0030152201"
