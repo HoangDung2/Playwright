@@ -15,6 +15,7 @@ jobs:
 
       - name: Install node
         run: nvm install 18.16.0
+      - name: Use node
         run: nvm use 18.16.0
 
       - uses: microsoft/playwright-github-action@v1
