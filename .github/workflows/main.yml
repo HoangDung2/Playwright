@@ -6,6 +6,7 @@ on:
 
 jobs:
   e2e-tests:
+    name: Run end-to-end e2e-tests
     runs-on: windows-latest # or macos-latest, windows-latest
 
     # steps:
