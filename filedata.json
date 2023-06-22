@@ -1,0 +1,46 @@
+{
+    "tc":[
+      
+        {
+            "username":"Admin",
+            "password":"admin123"
+        }
+    ],
+    "tc_false":[
+        {
+            "username":"Alex",
+            "password":"Test"
+        },
+        {
+            "username":"John",
+            "password":"Test"
+        }
+    ],
+    "tc_unfill":[
+        {
+            "username":"",
+            "password":""
+        }
+    ],
+    "tc_search":[
+        {
+            "userole":"Admin",
+            "status":"-- Select --"
+    
+        },
+        {
+            "userole":"Admin",
+            "status":"Disabled"
+    
+        }
+    ],
+    "employee":[
+        {
+            "username":"123asd51",
+            "userole":"ESS",
+            "employeename":"Kavya HM",
+            "status":"Enabled",
+            "editusername":"Kavya  shree HM"
+        }
+    ]
+}
