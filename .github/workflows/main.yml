@@ -8,20 +8,28 @@ jobs:
   e2e-tests:
     runs-on: windows-latest # or macos-latest, windows-latest
 
-    steps:
-      - uses: actions/checkout@v3
+    # steps:
+    #   - uses: actions/checkout@v3
 
-      - uses: actions/setup-node@v3
+    #   - uses: actions/setup-node@v3
 
-      - uses: microsoft/playwright-github-action@v3
+    #   - uses: microsoft/playwright-github-action@v3
 
-      - name: Install node
-        run: nvm install 18.16.0
+    #   - name: Install node
+    #     run: nvm install 18.16.0
         
-      - name: Use node
-        run: nvm use 18.16.0
+    #   - name: Use node
+    #     run: nvm use 18.16.0
 
-      - name: Install dependencies and run tests
-        run: npm i && npx playwright test
-
+    #   - name: Install dependencies and run tests
+    #     run: npm i && npx playwright test
+     steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+      - name: Install dependencies
+        run: npm ci
+      - name: Install playwright browsers
+        run: npx playwright install --with-deps
+      - name: Run tests
+        run: npx playwright test
         
