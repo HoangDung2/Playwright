@@ -1,3 +1,4 @@
+name: "research-playwight"
 on:
   push:
     branches:
